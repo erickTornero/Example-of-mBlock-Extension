@@ -1,0 +1,22 @@
+{	"extensionName": "Demo3",
+	"description": "A Demo Extension for Arduino",
+	"version": "1.1",
+	"author": "Seeed Studio(support@seed.com)",
+	"homepage": "seeed.com",
+	"sort":0,
+	"javascriptURL":"",
+  "firmware":"1.0",
+  "extensionPort":0,
+	"blockSpecs": [
+		["h","Demo Program","runArduino"]
+	],
+	"menus": {
+		"digital":["HIGH","LOW"]
+	},
+	"values":{
+		"HIGH":1,
+		"LOW":0
+	},
+	"translators":{
+	}
+}
